@@ -1,11 +1,16 @@
-**mic_css presents:**
 Rock Paper Scissors NIKESH SUNFISH
 ===================
 [![Build Status](https://travis-ci.org/makersacademy/rps-challenge.svg?branch=master)](https://travis-ci.org/makersacademy/rps-challenge)
 
 About
 -----
-This game is an adaptation of Rock, Paper, Scissors, Lizard, Spock based on a Makers Academy tale. The weekend challenge for week 3 consisted of building the game using a TDD approach.
+This game is an adaptation of Rock, Paper, Scissors, Lizard, Spock based on a Makers Academy tale. The weekend challenge for week 3 of the coding bootcamp consisted of building the game using a TDD approach.
+
+Objectives
+----------
+The main objective for this project was to build an interactive Rock Paper Scissors web app. I extended this challenge by including further logic based on Rock, Paper, Scissors, Lizard, Spock.
+
+In order to give this simple application a Single-Page Application "feel" (and due to limited front-end knowledge), the app uses templates to switch out only the relevant sections of the page.
 
 Instructions
 ----
@@ -21,9 +26,9 @@ $ rackup
 Languages
 ----
 * Ruby
-* HTML / CSS
 * Sinatra
-* RSpec / Capybara
+* HTML / CSS
+* Testing frameworks: RSpec / Capybara
 
 Next steps
 ----------
@@ -33,15 +38,3 @@ Next steps
 * Fix Capybara weapon selection error
 * Improve sign-in page design
 * Add weapon images
-
-Acknowledgements
-------
-* [CSS reset by Eric Mayer](http://meyerweb.com/eric/tools/css/reset/)
-
-<!-- Icons:
-------
-* Rock icon from: http://games-helper.com/think-game-answers/chapter-21/
-* Scissor icon from: https://www.iconfinder.com/icons/115788/scissor_icon
-* Paper icon from: http://www.iconarchive.com/show/outline-icons-by-iconsmind/Paper-icon.html
-* Sunfish adapted from: https://anddear.wordpress.com/2012/03/16/make-more-friends-2/
-* Nikesh adapted from: https://github.com/nikeshashar -->

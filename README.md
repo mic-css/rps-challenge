@@ -12,10 +12,16 @@ The main objective for this project was to build an interactive Rock Paper Sciss
 
 In order to give this simple application a Single-Page Application "feel" (and due to limited front-end knowledge), the app uses templates to switch out only the relevant sections of the page.
 
+![Landing page](screenshots/landing-page.png)
+
+![Weapon choice](screenshots/weapon-choice.png)
+
+![Outcome](screenshots/outcome.png)
+
 Instructions
 ----
 To run this app, clone this repo from your chosen directory in the terminal.
-From the project directory, run bundle to install required gems. You can then run the app on a local server using `rackup`:
+From the project directory, run bundle to install required gems. You can then run the app on a local server using `rackup` and navigate to [localhost:9292](localhost:9292):
 ```
 $ git clone https://github.com/mic-css/rps-challenge.git
 $ cd rps-challenge
